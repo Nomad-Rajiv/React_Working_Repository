@@ -1,3 +1,5 @@
+import GetMethod from "./GetMethod"
+import PostMethod from "./PostMethod"
 import Registration from "./Registration"
 
 function App() {
@@ -5,7 +7,9 @@ function App() {
 
   return (
     <>
-      <Registration/> 
+{/* <Registration/>  */}
+{/* <PostMethod/> */}
+<GetMethod/>
     </>
   )
 }
